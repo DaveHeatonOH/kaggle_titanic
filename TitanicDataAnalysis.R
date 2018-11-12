@@ -1,6 +1,6 @@
 #import the data
-test <- read.csv('c:/users/dave_/onedrive/r predictive modelling/titanic survival/titanic survival/titanic survival/all/test.csv', header = TRUE)
-train <- read.csv('c:/users/dave_/onedrive/r predictive modelling/titanic survival/titanic survival/titanic survival/all/train.csv', header = TRUE)
+test <- read.csv('~/GitHub/Titanic/test.csv', header = TRUE)
+train <- read.csv('~/GitHub/Titanic/train.csv', header = TRUE)
 
 #add a survived column to test populate with "None"
 test.survived <- data.frame(Survived = rep("None", nrow(test)), test[,])
